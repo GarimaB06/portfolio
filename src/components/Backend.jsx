@@ -7,48 +7,55 @@ const Backend = () => {
         <div className="skills-box">
             <div className="skills-group">
                 <div className="skills-data">
-                    <i className="bx bx-badge-check"></i>
                      <div>
-                        <h3 className="skills-name">Node.js</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                        <i className="bx bx-badge-check"></i>
+                         Node.js</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">Express</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Express</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">NoSQL - MongoDB</h3>
-                        <span className="skill-level">Advanced</span>
-
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            NoSQL - MongoDB</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">PostgreSQL - SQL</h3>
-                        <span className="skill-level">Advanced</span>
-
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            PostgreSQL - SQL</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">Webpack</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Webpack</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">Git & GitFlow</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Git & GitFlow</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">Docker</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Docker</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">GraphQL</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            GraphQL</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">REST</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            REST APIS</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">AWS</h3>
-                        <span className="skill-level">Basic</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            AWS</h3>
                     </div>
                 </div>
             </div>

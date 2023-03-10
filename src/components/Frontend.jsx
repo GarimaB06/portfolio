@@ -7,47 +7,54 @@ const Frontend = () => {
         <div className="skills-box">
             <div className="skills-group">
                 <div className="skills-data">
-                    <i className="bx bx-badge-check"></i>
                      <div>
-                        <h3 className="skills-name">Javascript(ES6+)</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>Javascript(ES6+)</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">Typescript</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Typescript</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">React</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            React</h3>
                     </div>
                       <div>
-                        <h3 className="skills-name">React Router</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            React Router</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">Redux</h3>
-                        <span className="skill-level">Advanced</span>
-
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Redux</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">SASS/SCSS + CSS</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            SASS/SCSS + CSS</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">ChartJS</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            ChartJS</h3>
                     </div>
                      <div>
-                        <h3 className="skills-name">Electron</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            Electron</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">HTML</h3>
-                        <span className="skill-level">Advanced</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            HTML</h3>
                     </div>
                     <div>
-                        <h3 className="skills-name">TDD</h3>
-                        <span className="skill-level">Intermediate</span>
+                        <h3 className="skills-name">
+                            <i className="bx bx-badge-check"></i>
+                            TDD</h3>
                     </div>
                 </div>
             </div>
