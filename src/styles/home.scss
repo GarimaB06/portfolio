@@ -70,7 +70,6 @@ p {
 }
 
 .uil-arrow-down{
-    margin-left: 8px;
     color: black;
     z-index: -1;
 }
@@ -161,7 +160,7 @@ p {
     .icons-container{
         display: flex;
         margin-bottom: 40px;
-        z-index: -1;
+        z-index: 0;
     }
     .skills-container{
         grid-template-columns: max-content;

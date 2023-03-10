@@ -5,7 +5,7 @@
     top: 0;
     left: 0;
     background-color: rgba(white, 0.9);
-    z-index: var(--z-fixed);
+    z-index: 1;
 }
 
 .nav-list{
@@ -33,7 +33,9 @@ nav {
     color: black;
     font-size: 20px;
 }
-
+.nav-link .nav-icon{
+    margin-right: 8px;
+}
 .nav-link {
     text-decoration: none;
     color: black;
@@ -58,10 +60,6 @@ ul{
 li{
     list-style: none;
     margin: 20px;
-}
-
-i {
-    margin-right: 8px;
 }
 
 .icons-container{
@@ -162,9 +160,20 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
 
 @media screen and (max-width: 350px){
-.nav-list{
-    margin: none !important;
-}
+
+    .header {
+       .home-social-icon i.uil {
+            margin-right: 0;
+        }
+    }
+
+    .nav-list{
+        margin-right: 0;
+        padding-inline-start: 0;
+        .nav-icon{
+            margin-right: 0;
+        }
+    }
 
     .home-data p{
         display: block;
