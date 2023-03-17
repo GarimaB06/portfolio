@@ -1,3 +1,6 @@
+.home-container{
+    margin-top: 130px;
+}
 
 .home-content{
     display: grid;
@@ -56,6 +59,7 @@ p {
 }
 
 .home-scroll{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,6 +195,34 @@ p {
 
 .work__button-icon:hover{
     transform: translateX(0.25rem);
+}
+
+.testimonials h2{
+    margin-top: 100px;
+}
+
+.testimonial-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-image{
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.testimonial-card{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+
+.testimonial-text{
+    font-size: 14px;
 }
 
 /*============BREAKPOINTS============*/
