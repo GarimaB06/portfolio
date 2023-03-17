@@ -225,6 +225,111 @@ p {
     font-size: 14px;
 }
 
+
+.contact{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.contact-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-title{
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.contact__button-icon{
+    color: black;
+    zoom: 200%;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.contact-button{
+    color: white;
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgba(100, 100, 111, 0.2) 1px solid;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.contact-card-title{
+    margin: 5px;
+}
+
+.contact-form{
+    width: 360px;
+}
+
+.contact-form-div{
+    position: relative;
+    margin-bottom: 55px;
+    height: 4rem;
+}
+
+.contact-form-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background: none;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    z-index: 1;
+}
+
+.contact-form-tag{
+    position: absolute;
+    top: -0.75rem;
+    left: 1.25rem;
+    font-size: 12px;
+    padding:0.30rem;
+    background-color: white;
+    z-index: 10;
+}
+
+.contact-form-area{
+    height: 11rem;
+
+}
+.contact-form-area textarea{
+    resize: none;
+}
+
+button{
+    display: flex;
+}
+.button--flex{
+    display: flex;
+    width: fit-content;
+    border: none;
+    font-size: 18px ;
+}
+
+.button-icon{
+    margin-left: 4px;
+}
+
 /*============BREAKPOINTS============*/
 
 
