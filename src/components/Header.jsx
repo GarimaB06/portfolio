@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/header.scss";
-// import "../App.scss"
+
 const Header = () => {
 	const [Toggle, showMenu] = useState(false);
 
