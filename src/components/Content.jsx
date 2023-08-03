@@ -114,7 +114,7 @@ export const BookcaseContent = [
 	},
 ];
 
-export const PetParent = [
+export const PetParentContent = [
 	{
 		id: 31,
 		image: PetParent1,

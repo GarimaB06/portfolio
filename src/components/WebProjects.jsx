@@ -1,5 +1,6 @@
 import React from "react";
-import * from "../images/docketeer";
+import { DocketeerContent, BookcaseContent, PetParentContent } from "./Content";
+
 const WebProjects = () => {
 	return <div></div>;
 };
