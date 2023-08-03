@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/header.scss";
-
+import { Link } from "react-router-dom";
 const Header = () => {
 	const [Toggle, showMenu] = useState(false);
 
