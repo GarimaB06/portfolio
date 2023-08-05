@@ -7,22 +7,11 @@ const WorkItems = ({ item }) => {
 			<div className="work-card" key={item.id}>
 				<img src={item.image} alt="" className="work-image" />
 				<h3 className="work-title">{item.title}</h3>
-			</div>
-			<div>
-				<Link to="/docketeer">
-					Docketeer
-					<i className="bx bx-right-arrow-alt work__button-icon"></i>
-				</Link>
-				<Link to="/bookcase">
-					MyBookcase
-					<i className="bx bx-right-arrow-alt work__button-icon"></i>
-				</Link>
-				<Link to="/petparent">
-					Pet Parent
+				<Link to={item.route}>
+					Click to view more
 					<i className="bx bx-right-arrow-alt work__button-icon"></i>
 				</Link>
 			</div>
-			<div></div>
 		</>
 	);
 };

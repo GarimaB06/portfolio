@@ -26,18 +26,21 @@ export const ProjectsContent = [
 		image: Work1,
 		title: "Docketeer",
 		category: "desktop",
+		route: "/docketeer",
 	},
 	{
 		id: 2,
 		image: Work2,
 		title: "My Book Case",
 		category: "web",
+		route: "/bookcase",
 	},
 	{
 		id: 3,
 		image: Work3,
 		title: "Pet Parent",
 		category: "web",
+		route: "/petparent",
 	},
 ];
 

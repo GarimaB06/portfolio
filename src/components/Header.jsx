@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/header.scss";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 const Header = () => {
 	const [Toggle, showMenu] = useState(false);
 
@@ -13,31 +13,31 @@ const Header = () => {
 				<div className={Toggle ? "hide-menu" : "nav-menu"}>
 					<ul className="nav-list grid">
 						<li className="nav-item">
-							<a href="#home" className="nav-link">
+							<HashLink to="/#home" className="nav-link">
 								<i className="uil uil-estate nav-icon"></i>Home
-							</a>
+							</HashLink>
 						</li>
 						<li className="nav-item">
-							<a href="#about" className="nav-link">
-								<i className="uil uil-user nav-icon"></i>About
-							</a>
+							<HashLink to="/#about" className="nav-link">
+								<i className="uil uil-estate nav-icon"></i>About
+							</HashLink>
 						</li>
 						<li className="nav-item">
-							<a href="#skills" className="nav-link">
-								<i className="uil uil-file-alt nav-icon"></i>Skills
-							</a>
-						</li>
-
-						<li className="nav-item">
-							<a href="#portfolio" className="nav-link">
-								<i className="uil uil-scenery nav-icon"></i>Portfolio
-							</a>
+							<HashLink to="/#skills" className="nav-link">
+								<i className="uil uil-estate nav-icon"></i>Skills
+							</HashLink>
 						</li>
 
 						<li className="nav-item">
-							<a href="#contact" className="nav-link">
-								<i className="uil uil-message nav-icon"></i>Contact
-							</a>
+							<HashLink to="/#portfolio" className="nav-link">
+								<i className="uil uil-estate nav-icon"></i>Portfolio
+							</HashLink>
+						</li>
+
+						<li className="nav-item">
+							<HashLink to="/#contact" className="nav-link">
+								<i className="uil uil-estate nav-icon"></i>Contact
+							</HashLink>
 						</li>
 					</ul>
 					<i
