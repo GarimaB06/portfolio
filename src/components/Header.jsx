@@ -7,9 +7,12 @@ const Header = () => {
 	return (
 		<header className="header">
 			<nav className="nav-container">
-				<a href="index.html" className="nav-logo">
+				{/* <a href="index.html" className="nav-logo">
 					Garima
-				</a>
+				</a> */}
+				<HashLink to="#home" className="nav-logo">
+					Garima
+				</HashLink>
 				<div className={Toggle ? "hide-menu" : "nav-menu"}>
 					<ul className="nav-list grid">
 						<li className="nav-item">

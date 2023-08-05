@@ -1,4 +1,5 @@
 import './App.scss'
+import './styles/projects-demo.scss'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
@@ -6,7 +7,7 @@ import Skills from './components/Skills'
 import Work from './components/Work'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
-import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import DocketeerDemo from "./components/DocketeerDemo"
 import BookCaseDemo from "./components/BookCaseDemo";
 import PetParentDemo from "./components/PetParentDemo";

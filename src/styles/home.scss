@@ -87,6 +87,9 @@ p {
 	}
 }
 
+.padding-top {
+	padding-top: 100px;
+}
 .about-section {
 	margin: 50px;
 	display: flex;
@@ -324,20 +327,6 @@ button {
 
 .button-icon {
 	margin-left: 4px;
-}
-
-.projects-demo {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.project-images {
-	display: flex;
-	flex-direction: column;
-	max-width: 800px;
-	max-height: auto;
-	margin: 50px;
 }
 
 /*============BREAKPOINTS============*/
