@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { DocketeerContent } from "./Content";
 import Flickity from "react-flickity-component";
 
@@ -64,10 +64,12 @@ const DocketeerDemo = () => {
 					alt="docketeer-7"
 				/>
 			</div>
-			<div className="carousel-item-wrapper">
+			<div className="carousel-item-wrapper vimeo-wrapper">
 				<div
 					style={{
-						padding: "59.88% 0 0 0",
+						width: "100%",
+						justifyContent: "center",
+						padding: "0 0 0 0",
 						position: "relative",
 					}}
 				>
