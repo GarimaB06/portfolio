@@ -3,7 +3,7 @@ import CV from "../cv/cv.pdf";
 
 const About = () => {
 	return (
-		<section className="about-section" id="about">
+		<section className="about-section padding-top" id="about">
 			<h2 className="section-title">About Me</h2>
 			<span className="section-subtitle">My Introduction</span>
 			<div className="about-container about-section">

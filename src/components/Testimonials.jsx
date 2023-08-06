@@ -6,7 +6,7 @@ const Testimonials = () => {
 	return (
 		<div>
 			<ScrollDown />
-			<section className="testimonials container section">
+			<section className="testimonials container section padding-top">
 				<h2 className="section-title">Recommendations</h2>
 				<span className="section-subtitle"></span>
 				<div className="testimonial-container">
