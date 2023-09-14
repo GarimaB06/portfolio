@@ -331,17 +331,27 @@ button {
 /*============BREAKPOINTS============*/
 
 @media screen and (max-width: 1000px) {
+	.nav-menu {
+		z-index: 20;
+	}
 	.home-content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		justify-content: center;
 	}
 
 	.about-section .about-img {
 		width: 350px;
 		height: 350px;
 	}
-
+	.about-para {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin: 50px 10px 50px 10px;
+	}
 	.home-scroll {
 		margin-top: 40px;
 	}
@@ -355,6 +365,10 @@ button {
 	}
 	.home-data {
 		margin-right: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
 	.icons-container {
 		display: flex;
@@ -364,5 +378,82 @@ button {
 	.skills-container {
 		grid-template-columns: max-content;
 		row-gap: 2rem;
+	}
+
+	.testimonial-container {
+		margin-left: 10px;
+		margin-right: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.testimonial-card {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.testimonial-text {
+		margin-top: 50px;
+	}
+	.testimonial-description {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.contact {
+		display: flex;
+		flex-direction: column;
+		margin: none;
+	}
+	.contact-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.contact-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px;
+		margin-bottom: 30px;
+	}
+	.contact-content {
+		margin-bottom: 50px;
+		display: flex;
+		flex-direction: column;
+		align-self: center;
+	}
+	.contact-form {
+		width: 250px;
+	}
+
+	.contact-form-tag {
+		z-index: 0;
+		background-color: white;
+		border: 1px solid white;
+	}
+	.contact-form-input {
+		z-index: 0;
+	}
+	.contact-button {
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.header {
+		z-index: 2;
+	}
+	.main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contact-form-tag {
+		z-index: 1;
+	}
+	.nav-menu {
+		z-index: 20;
 	}
 }
