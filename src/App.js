@@ -27,7 +27,8 @@ function App() {
            <Work />
            <Testimonials />
           <Contact />
-          </>}/>
+          </>}
+          />
 		      <Route path="/docketeer" element={<DocketeerDemo />}></Route>
 					<Route path="/bookcase" element={<BookCaseDemo />}></Route>
 					<Route path="/petparent" element={<PetParentDemo />}></Route>
