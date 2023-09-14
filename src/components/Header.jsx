@@ -1,15 +1,13 @@
 import React, { useState } from "react";
 import "../styles/header.scss";
 import { HashLink } from "react-router-hash-link";
+
 const Header = () => {
 	const [Toggle, showMenu] = useState(false);
 
 	return (
 		<header className="header">
 			<nav className="nav-container">
-				{/* <a href="index.html" className="nav-logo">
-					Garima
-				</a> */}
 				<HashLink to="#home" className="nav-logo">
 					Garima
 				</HashLink>

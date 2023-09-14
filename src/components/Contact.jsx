@@ -22,7 +22,6 @@ const Contact = () => {
 			<span className="section-subtitle">Let's Talk!</span>
 			<div className="contact-container">
 				<div className="contact-content">
-					{/* <h3 className="contact-title">Find me here</h3> */}
 					<div className="contact-info">
 						{/* contact card #1 */}
 						<div className="contact-card">
@@ -51,7 +50,6 @@ const Contact = () => {
 
 				{/* contact form */}
 				<div className="contact-content">
-					{/* <h3 className="contact-title">Role Details</h3> */}
 					<form
 						action=""
 						ref={form}
@@ -59,7 +57,7 @@ const Contact = () => {
 						className="contact-form"
 					>
 						<div className="contact-form-div">
-							<label className="contact-form-tag">Company Name</label>
+							<label className="contact-form-tag">Subject</label>
 							<input
 								type="text"
 								name="name"
@@ -79,7 +77,7 @@ const Contact = () => {
 						</div>
 
 						<div className="contact-form-div contact-form-area">
-							<label className="contact-form-tag">Project</label>
+							<label className="contact-form-tag">Message</label>
 							<textarea
 								name="project"
 								cols="30"
