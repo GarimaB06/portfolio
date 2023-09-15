@@ -171,7 +171,7 @@ iframe {
 ===================MEDIA QUERIES================
 */
 
-@media screen and (max-width: 1180px) {
+@media screen and (min-width: 760px) and (max-width: 1180px) {
 	.carousel {
 		width: 100%; /* full width */
 		height: auto; /* height of carousel */
@@ -181,7 +181,7 @@ iframe {
 		height: auto;
 	}
 	.project-images {
-		width: 100%;
+		width: 800px;
 		height: auto;
 	}
 	.carousel-item-wrapper {
@@ -189,53 +189,59 @@ iframe {
 		display: flex;
 		justify-content: center;
 		.project-images {
-			margin: 0 auto;
+			margin: 10px auto;
 		}
+	}
+
+	.flickity-viewport {
+		padding-top: 150px;
+		overflow: hidden;
+		position: relative;
+		height: 100%;
+	}
+	.flickity-rtl .flickity-page-dots {
+		direction: rtl;
+	}
+	.flickity-page-dots {
+		bottom: -25px;
+	}
+	.flickity-page-dots .dot {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		margin: 0 8px;
+		background: #333;
+		border-radius: 50%;
+		opacity: 0.25;
+		cursor: pointer;
+	}
+
+	.flickity-page-dots .dot.is-selected {
+		opacity: 1;
 	}
 }
 
-@media screen and (max-width: 800px) {
-	.carousel {
-		width: 100%; /* full width */
-		height: auto; /* height of carousel */
-	}
-	.flickity-viewport {
-		width: 600px;
-		height: auto;
-	}
-	.project-images {
-		width: 100%;
-		height: auto;
-	}
-	.carousel-item-wrapper {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		.project-images {
-			margin: 0 auto;
-		}
-	}
+/*
+===================MOBILE VIEW PROJECTS================
+*/
+
+.mobile-view-project-demo {
+	display: flex;
+	width: 100%;
+	height: auto;
+	flex-direction: column;
+	align-items: center;
+	margin: 140px 20px 150px 20px;
 }
 
-@media screen and (max-width: 600px) {
-	.carousel {
-		width: 100%; /* full width */
-		height: auto; /* height of carousel */
-	}
-	.flickity-viewport {
-		width: 390px;
-		height: auto;
-	}
+.mobile-view-item-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
 	.project-images {
-		width: 100%;
+		max-width: 380px;
 		height: auto;
-	}
-	.carousel-item-wrapper {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		.project-images {
-			margin: 0 auto;
-		}
+		margin-bottom: 30px;
 	}
 }
