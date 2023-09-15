@@ -8,8 +8,8 @@ const flickityOptions = {
 
 const BookCaseDemo = () => {
 	const [isMobile, setIsMobile] = useState(false);
-	const [windowWidth, setWindowWidth] = useState(0);
-	const [windowHeight, setWindowHeight] = useState(0);
+	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+	const [windowHeight, setWindowHeight] = useState(window.innerHeight);
 
 	useEffect(() => {
 		const setDimensions = () => {
