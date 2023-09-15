@@ -166,3 +166,76 @@ iframe {
 .flickity-page-dots .dot.is-selected {
 	opacity: 1;
 }
+
+/*
+===================MEDIA QUERIES================
+*/
+
+@media screen and (max-width: 1180px) {
+	.carousel {
+		width: 100%; /* full width */
+		height: auto; /* height of carousel */
+	}
+	.flickity-viewport {
+		width: 800px;
+		height: auto;
+	}
+	.project-images {
+		width: 100%;
+		height: auto;
+	}
+	.carousel-item-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		.project-images {
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.carousel {
+		width: 100%; /* full width */
+		height: auto; /* height of carousel */
+	}
+	.flickity-viewport {
+		width: 600px;
+		height: auto;
+	}
+	.project-images {
+		width: 100%;
+		height: auto;
+	}
+	.carousel-item-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		.project-images {
+			margin: 0 auto;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.carousel {
+		width: 100%; /* full width */
+		height: auto; /* height of carousel */
+	}
+	.flickity-viewport {
+		width: 390px;
+		height: auto;
+	}
+	.project-images {
+		width: 100%;
+		height: auto;
+	}
+	.carousel-item-wrapper {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		.project-images {
+			margin: 0 auto;
+		}
+	}
+}
