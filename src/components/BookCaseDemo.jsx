@@ -36,29 +36,29 @@ const BookCaseDemo = () => {
 	return (
 		<>
 			{isMobile === true ? (
-				<div className="bookcase-demo project-section">
-					<div className="project-images-mobile-view">
+				<div className="mobile-view-project-demo project-section">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={BookcaseContent[0].image}
 							alt="bookcase-1"
 						/>
 					</div>
-					<div className="project-images-mobile-view">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={BookcaseContent[1].image}
 							alt="bookcase-2"
 						/>
 					</div>
-					<div className="project-images-mobile-view">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={BookcaseContent[2].image}
 							alt="bookcase-3"
 						/>
 					</div>
-					<div className="project-images-mobile-view">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={BookcaseContent[3].image}
@@ -67,7 +67,7 @@ const BookCaseDemo = () => {
 					</div>
 				</div>
 			) : (
-				<div className="bookcase-demo project-section">
+				<div className="project-section bookcase-demo">
 					<Flickity
 						className={"carousel"} // default ''
 						elementType={"div"} // default 'div'

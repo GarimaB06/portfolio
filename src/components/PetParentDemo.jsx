@@ -37,29 +37,29 @@ const PetParentDemo = () => {
 	return (
 		<>
 			{isMobile === true ? (
-				<div className="petparent-demo project-section">
-					<div className="carousel-item-wrapper">
+				<div className="mobile-view-project-demo project-section">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={PetParentContent[0].image}
 							alt="petparent-1"
 						/>
 					</div>
-					<div className="carousel-item-wrapper">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={PetParentContent[1].image}
 							alt="petparent-2"
 						/>
 					</div>
-					<div className="carousel-item-wrapper">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={PetParentContent[2].image}
 							alt="petparent-3"
 						/>
 					</div>
-					<div className="carousel-item-wrapper">
+					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
 							src={PetParentContent[3].image}
