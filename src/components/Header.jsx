@@ -20,24 +20,28 @@ const Header = () => {
 						</li>
 						<li className="nav-item">
 							<HashLink to="/#about" className="nav-link">
-								<i className="uil uil-estate nav-icon"></i>About
+								<i class="bx bx-happy-alt nav-icon"></i>
+								About
 							</HashLink>
 						</li>
 						<li className="nav-item">
 							<HashLink to="/#skills" className="nav-link">
-								<i className="uil uil-estate nav-icon"></i>Skills
+								<i class="bx bx-laptop nav-icon"></i>
+								Skills
 							</HashLink>
 						</li>
 
 						<li className="nav-item">
 							<HashLink to="/#portfolio" className="nav-link">
-								<i className="uil uil-estate nav-icon"></i>Portfolio
+								<i class="bx bx-briefcase-alt-2 nav-icon"></i>
+								Portfolio
 							</HashLink>
 						</li>
 
 						<li className="nav-item">
 							<HashLink to="/#contact" className="nav-link">
-								<i className="uil uil-estate nav-icon"></i>Contact
+								<i class="bx bx-phone nav-icon"></i>
+								Contact
 							</HashLink>
 						</li>
 					</ul>

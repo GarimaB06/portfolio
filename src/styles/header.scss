@@ -29,9 +29,15 @@ nav {
 	font-size: 20px;
 	padding: 8px 10px 8px 10px;
 }
-.nav-link .nav-icon {
-	margin-right: 8px;
+.nav-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
+.nav-link .nav-icon {
+	margin-right: 5px;
+}
+
 .nav-link {
 	text-decoration: none;
 	color: black;
@@ -123,6 +129,7 @@ li {
 		margin: 0px;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
+		padding: 0px;
 	}
 
 	.nav-container {
