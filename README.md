@@ -16,3 +16,9 @@ Docketeer(Open Source Labs)
 - Description: Docketeer is a user-friendly application with an intuitive interface for container management, with visualization tools for your containers 
 - Technologies Used: React(Hooks), Redux Toolkit, Node.js, Chart.js, Typescript, CSS, Electron
 - https://github.com/open-source-labs/Docketeer
+
+Fauxtionary
+
+- Description: Fauxtionary is a fun and creative 4 player game where players have to create fake definitions for fake words. This repository contains all the resources and code for the game. You can play the live version on RuneSDK.
+- Technologies Used: React(Hooks), SASS/SCSS, RuneSDK
+- https://github.com/amritvela/Fauxtionary
