@@ -99,7 +99,8 @@ const DocketeerDemo = () => {
 						<div className="carousel-item-wrapper vimeo-wrapper">
 							<div
 								style={{
-									width: "100%",
+									width: "110%",
+									height: "auto",
 									justifyContent: "center",
 									padding: "0 0 0 0",
 									position: "relative",
