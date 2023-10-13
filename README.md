@@ -3,7 +3,7 @@ My Portfolio
 
 # Garima Bhatia's Portfolio
 
-Welcome to my GitHub portfolio! This repository serves as a showcase of my work and projects. Here, you'll find a collection of the projects I've worked on, my skills, and a brief introduction about me.
+Welcome to my GitHub! This repository serves as a showcase of my work and projects. Here, you'll find a collection of the projects I've worked on, my skills, and a brief introduction about me.
 
 ## About Me
 
