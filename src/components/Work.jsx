@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
-// import { Link } from "react-router-dom";
+
 const Work = () => {
 	return (
 		<section className="recommendations">

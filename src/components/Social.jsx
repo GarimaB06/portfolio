@@ -17,13 +17,6 @@ const Social = () => {
 				>
 					<i className="uil uil-linkedin"></i>
 				</a>
-				{/* <a
-					href="https://www.instagram.com/"
-					className="home-social-icon"
-					target="blank"
-				>
-					<i className="uil uil-instagram"></i>
-				</a> */}
 			</div>
 			<div className="home-img profile__animate"></div>
 		</div>
