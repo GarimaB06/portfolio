@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { DocketeerContent } from "./Content";
+import { FauxtionaryContent } from "./Content";
 import Flickity from "react-flickity-component";
 
 const flickityOptions = {
 	initialIndex: 0,
 };
-const DocketeerDemo = () => {
+
+const FauxtionaryDemo = () => {
 	const [isMobile, setIsMobile] = useState(false);
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 	const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -39,50 +40,50 @@ const DocketeerDemo = () => {
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[0].image}
-							alt="docketeer-1"
+							src={FauxtionaryContent[0].image}
+							alt="fauxtionary-1"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[1].image}
-							alt="docketeer-2"
+							src={FauxtionaryContent[1].image}
+							alt="fauxtionary-2"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[2].image}
-							alt="docketeer-3"
+							src={FauxtionaryContent[2].image}
+							alt="fauxtionary-3"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[3].image}
-							alt="docketeer-4"
+							src={FauxtionaryContent[3].image}
+							alt="fauxtionary-4"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[4].image}
-							alt="docketeer-5"
+							src={FauxtionaryContent[4].image}
+							alt="fauxtionary-5"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[5].image}
-							alt="docketeer-6"
+							src={FauxtionaryContent[5].image}
+							alt="fauxtionary-6"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={DocketeerContent[6].image}
-							alt="docketeer-7"
+							src={FauxtionaryContent[6].image}
+							alt="fauxtionary-7"
 						/>
 					</div>
 				</div>
@@ -99,7 +100,7 @@ const DocketeerDemo = () => {
 						<div className="carousel-item-wrapper vimeo-wrapper">
 							<div
 								style={{
-									width: "110%",
+									width: "180%",
 									height: "auto",
 									justifyContent: "center",
 									padding: "0 0 0 0",
@@ -107,9 +108,9 @@ const DocketeerDemo = () => {
 								}}
 							>
 								<iframe
-									src="https://player.vimeo.com/video/851975342?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+									src="https://player.vimeo.com/video/874112493?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479"
 									allow="autoplay; fullscreen; picture-in-picture"
-									title="Docketeer 9.0 - Metrics Display Demo"
+									title="Fauxtionary - UI Demo"
 								></iframe>
 							</div>
 							<script src="https://player.vimeo.com/api/player.js"></script>
@@ -117,50 +118,50 @@ const DocketeerDemo = () => {
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[0].image}
-								alt="docketeer-1"
+								src={FauxtionaryContent[0].image}
+								alt="fauxtionary-1"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[1].image}
-								alt="docketeer-2"
+								src={FauxtionaryContent[1].image}
+								alt="fauxtionary-2"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[2].image}
-								alt="docketeer-3"
+								src={FauxtionaryContent[2].image}
+								alt="fauxtionary-3"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[3].image}
-								alt="docketeer-4"
+								src={FauxtionaryContent[3].image}
+								alt="fauxtionary-4"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[4].image}
-								alt="docketeer-5"
+								src={FauxtionaryContent[4].image}
+								alt="fauxtionary-5"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[5].image}
-								alt="docketeer-6"
+								src={FauxtionaryContent[5].image}
+								alt="fauxtionary-6"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={DocketeerContent[6].image}
-								alt="docketeer-7"
+								src={FauxtionaryContent[6].image}
+								alt="fauxtionary-7"
 							/>
 						</div>
 					</Flickity>
@@ -169,4 +170,4 @@ const DocketeerDemo = () => {
 		</>
 	);
 };
-export default DocketeerDemo;
+export default FauxtionaryDemo;
