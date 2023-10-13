@@ -1,6 +1,7 @@
 import Work1 from "../images/docketeer.png";
 import Work2 from "../images/mybookcase.png";
 import Work3 from "../images/petparent.png";
+import Work4 from "../images/fauxtionary.png";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
 import Docketeer2 from "../images/docketeer/docketeer2.png";
@@ -20,6 +21,14 @@ import PetParent2 from "../images/petparent/petparent2.png";
 import PetParent3 from "../images/petparent/petparent3.png";
 import PetParent4 from "../images/petparent/petparent4.png";
 
+import Fauxtionary1 from "../images/fauxtionary/fauxtionary1.png";
+import Fauxtionary2 from "../images/fauxtionary/fauxtionary2.png";
+import Fauxtionary3 from "../images/fauxtionary/fauxtionary3.png";
+import Fauxtionary4 from "../images/fauxtionary/fauxtionary4.png";
+import Fauxtionary5 from "../images/fauxtionary/fauxtionary5.png";
+import Fauxtionary6 from "../images/fauxtionary/fauxtionary6.png";
+import Fauxtionary7 from "../images/fauxtionary/fauxtionary7.png";
+
 export const ProjectsContent = [
 	{
 		id: 1,
@@ -28,15 +37,23 @@ export const ProjectsContent = [
 		category: "desktop",
 		route: "/docketeer",
 	},
+
 	{
 		id: 2,
+		image: Work4,
+		title: "Fauxtionary",
+		category: "mobile",
+		route: "/fauxtionary",
+	},
+	{
+		id: 3,
 		image: Work2,
 		title: "My Book Case",
 		category: "web",
 		route: "/bookcase",
 	},
 	{
-		id: 3,
+		id: 4,
 		image: Work3,
 		title: "Pet Parent",
 		category: "web",
@@ -53,6 +70,9 @@ export const ProjectsNav = [
 	},
 	{
 		name: "desktop",
+	},
+	{
+		name: "mobile",
 	},
 ];
 
@@ -137,5 +157,43 @@ export const PetParentContent = [
 		id: 34,
 		image: PetParent4,
 		title: "PetParent-4",
+	},
+];
+
+export const FauxtionaryContent = [
+	{
+		id: 35,
+		image: Fauxtionary1,
+		title: "Fauxtionary-1",
+	},
+	{
+		id: 36,
+		image: Fauxtionary2,
+		title: "Fauxtionary-2",
+	},
+	{
+		id: 37,
+		image: Fauxtionary3,
+		title: "Fauxtionary-3",
+	},
+	{
+		id: 38,
+		image: Fauxtionary4,
+		title: "Fauxtionary-4",
+	},
+	{
+		id: 39,
+		image: Fauxtionary5,
+		title: "Fauxtionary-5",
+	},
+	{
+		id: 40,
+		image: Fauxtionary6,
+		title: "Fauxtionary-6",
+	},
+	{
+		id: 41,
+		image: Fauxtionary7,
+		title: "Fauxtionary-7",
 	},
 ];
