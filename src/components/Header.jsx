@@ -11,7 +11,7 @@ const Header = () => {
 				<HashLink to="#home" className="nav-logo">
 					Garima
 				</HashLink>
-				<div className={Toggle ? "hide-menu" : "nav-menu"}>
+				<div className={Toggle ? "nav-menu" : "hide-menu"}>
 					<ul className="nav-list grid">
 						<li className="nav-item">
 							<HashLink to="/#home" className="nav-link">
@@ -47,7 +47,7 @@ const Header = () => {
 					</ul>
 					<i
 						className="uil uil-times nav-close"
-						onClick={() => showMenu(!Toggle)}
+						onClick={() => showMenu(false)}
 					></i>
 				</div>
 				<div className="nav-toggle" onClick={() => showMenu(!Toggle)}>
