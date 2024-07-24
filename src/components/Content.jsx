@@ -144,21 +144,37 @@ export const BookcaseContent = [
 export const MaterialPlaygroundContent = [
 	{
 		id: 31,
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground1,
 		title: "MaterialPlayground-1",
 	},
 	{
 		id: 32,
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground2,
 		title: "MaterialPlayground-2",
 	},
 	{
 		id: 33,
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground3,
 		title: "MaterialPlayground-3",
 	},
 	{
 		id: 34,
+<<<<<<< HEAD
+=======
+
+>>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground4,
 		title: "MaterialPlayground-4",
 	},
