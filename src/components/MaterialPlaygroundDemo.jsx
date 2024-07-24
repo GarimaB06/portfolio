@@ -57,8 +57,6 @@ const MaterialPlaygroundDemo = () => {
 							className="project-images"
 							src={MaterialPlaygroundContent[2].image}
 							alt="materialplayground-3"
-<<<<<<< HEAD
-=======
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
@@ -66,16 +64,11 @@ const MaterialPlaygroundDemo = () => {
 							className="project-images"
 							src={MaterialPlaygroundContent[3].image}
 							alt="materialplayground-4"
->>>>>>> e2c9f72 (material playground code)
 						/>
 					</div>
 				</div>
 			) : (
-<<<<<<< HEAD
-				<div className=" project-section">
-=======
 				<div className="project-section">
->>>>>>> e2c9f72 (material playground code)
 					<Flickity
 						className={"carousel"} // default ''
 						elementType={"div"} // default 'div'
@@ -103,8 +96,6 @@ const MaterialPlaygroundDemo = () => {
 								className="project-images"
 								src={MaterialPlaygroundContent[2].image}
 								alt="materialplayground-3"
-<<<<<<< HEAD
-=======
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
@@ -112,7 +103,6 @@ const MaterialPlaygroundDemo = () => {
 								className="project-images"
 								src={MaterialPlaygroundContent[3].image}
 								alt="materialplayground-4"
->>>>>>> e2c9f72 (material playground code)
 							/>
 						</div>
 					</Flickity>
