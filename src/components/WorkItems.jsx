@@ -12,6 +12,7 @@ const WorkItems = ({ item }) => {
 					<i className="bx bx-right-arrow-alt work__button-icon"></i>
 				</Link>
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<a href={item.github} rel="noopener noreferrer">
 					GitHub
 					<i className="bx bx-right-arrow-alt work__button-icon"></i>
@@ -24,6 +25,12 @@ const WorkItems = ({ item }) => {
 					</a>
 				</Link>
 >>>>>>> e2c9f72 (material playground code)
+=======
+				<a href={item.github} target="_blank" rel="noopener noreferrer">
+					GitHub
+					<i className="bx bx-right-arrow-alt work__button-icon"></i>
+				</a>
+>>>>>>> e6be0dd (github links and material playground attempt 3)
 			</div>
 		</>
 	);
