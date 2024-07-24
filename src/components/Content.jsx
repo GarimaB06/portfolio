@@ -1,6 +1,6 @@
 import Work1 from "../images/docketeer.png";
 import Work2 from "../images/mybookcase.png";
-import Work3 from "../images/materialplayground/materialplayground4.png";
+import Work3 from "../images/materialplayground/materialplayground3.png";
 import Work4 from "../images/fauxtionary.png";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
@@ -144,37 +144,21 @@ export const BookcaseContent = [
 export const MaterialPlaygroundContent = [
 	{
 		id: 31,
-<<<<<<< HEAD
-=======
-
->>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground1,
 		title: "MaterialPlayground-1",
 	},
 	{
 		id: 32,
-<<<<<<< HEAD
-=======
-
->>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground2,
 		title: "MaterialPlayground-2",
 	},
 	{
 		id: 33,
-<<<<<<< HEAD
-=======
-
->>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground3,
 		title: "MaterialPlayground-3",
 	},
 	{
 		id: 34,
-<<<<<<< HEAD
-=======
-
->>>>>>> e2c9f72 (material playground code)
 		image: MaterialPlayground4,
 		title: "MaterialPlayground-4",
 	},
