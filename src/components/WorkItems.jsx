@@ -15,16 +15,6 @@ const WorkItems = ({ item }) => {
 					GitHub
 					<i className="bx bx-right-arrow-alt work__button-icon"></i>
 				</a>
-				<Link>
-					<a href={item.github} rel="noopener noreferrer">
-						GitHub
-						<i className="bx bx-right-arrow-alt work__button-icon"></i>
-					</a>
-				</Link>
-				<a href={item.github} target="_blank" rel="noopener noreferrer">
-					GitHub
-					<i className="bx bx-right-arrow-alt work__button-icon"></i>
-				</a>
 			</div>
 		</>
 	);
