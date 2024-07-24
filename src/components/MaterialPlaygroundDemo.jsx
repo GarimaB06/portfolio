@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { PetParentContent } from "./Content";
+import { MaterialPlaygroundContent } from "./Content";
 import Flickity from "react-flickity-component";
 import "../styles/projects-demo.scss";
 
@@ -7,7 +7,7 @@ const flickityOptions = {
 	initialIndex: 0,
 };
 
-const PetParentDemo = () => {
+const MaterialPlaygroundDemo = () => {
 	const [isMobile, setIsMobile] = useState(false);
 	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 	const [windowHeight, setWindowHeight] = useState(window.innerHeight);
@@ -41,34 +41,27 @@ const PetParentDemo = () => {
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={PetParentContent[0].image}
-							alt="petparent-1"
+							src={MaterialPlaygroundContent[0].image}
+							alt="materialplayground-1"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={PetParentContent[1].image}
-							alt="petparent-2"
+							src={MaterialPlaygroundContent[1].image}
+							alt="materialplayground-2"
 						/>
 					</div>
 					<div className="mobile-view-item-wrapper">
 						<img
 							className="project-images"
-							src={PetParentContent[2].image}
-							alt="petparent-3"
-						/>
-					</div>
-					<div className="mobile-view-item-wrapper">
-						<img
-							className="project-images"
-							src={PetParentContent[3].image}
-							alt="petparent-4"
+							src={MaterialPlaygroundContent[2].image}
+							alt="materialplayground-3"
 						/>
 					</div>
 				</div>
 			) : (
-				<div className="petparent-demo project-section">
+				<div className=" project-section">
 					<Flickity
 						className={"carousel"} // default ''
 						elementType={"div"} // default 'div'
@@ -80,29 +73,22 @@ const PetParentDemo = () => {
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={PetParentContent[0].image}
-								alt="petparent-1"
+								src={MaterialPlaygroundContent[0].image}
+								alt="materialplayground-1"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={PetParentContent[1].image}
-								alt="petparent-2"
+								src={MaterialPlaygroundContent[1].image}
+								alt="materialplayground-2"
 							/>
 						</div>
 						<div className="carousel-item-wrapper">
 							<img
 								className="project-images"
-								src={PetParentContent[2].image}
-								alt="petparent-3"
-							/>
-						</div>
-						<div className="carousel-item-wrapper">
-							<img
-								className="project-images"
-								src={PetParentContent[3].image}
-								alt="petparent-4"
+								src={MaterialPlaygroundContent[2].image}
+								alt="materialplayground-3"
 							/>
 						</div>
 					</Flickity>
@@ -112,4 +98,4 @@ const PetParentDemo = () => {
 	);
 };
 
-export default PetParentDemo;
+export default MaterialPlaygroundDemo;

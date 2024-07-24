@@ -1,6 +1,6 @@
 import Work1 from "../images/docketeer.png";
 import Work2 from "../images/mybookcase.png";
-import Work3 from "../images/petparent.png";
+import Work3 from "../images/materialplayground/materialplayground4.png";
 import Work4 from "../images/fauxtionary.png";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
@@ -16,10 +16,10 @@ import Bookcase2 from "../images/bookcase/bookcase2.png";
 import Bookcase3 from "../images/bookcase/bookcase3.png";
 import Bookcase4 from "../images/bookcase/bookcase4.png";
 
-import PetParent1 from "../images/petparent/petparent1.png";
-import PetParent2 from "../images/petparent/petparent2.png";
-import PetParent3 from "../images/petparent/petparent3.png";
-import PetParent4 from "../images/petparent/petparent4.png";
+import MaterialPlayground1 from "../images/materialplayground/materialplayground1.png";
+import MaterialPlayground2 from "../images/materialplayground/materialplayground2.png";
+import MaterialPlayground3 from "../images/materialplayground/materialplayground3.png";
+import MaterialPlayground4 from "../images/materialplayground/materialplayground4.png";
 
 import Fauxtionary1 from "../images/fauxtionary/fauxtionary1.png";
 import Fauxtionary2 from "../images/fauxtionary/fauxtionary2.png";
@@ -36,6 +36,7 @@ export const ProjectsContent = [
 		title: "Docketeer",
 		category: "desktop",
 		route: "/docketeer",
+		github: "https://github.com/open-source-labs/Docketeer",
 	},
 
 	{
@@ -44,6 +45,7 @@ export const ProjectsContent = [
 		title: "Fauxtionary",
 		category: "mobile",
 		route: "/fauxtionary",
+		github: "https://github.com/amritvela/Fauxtionary",
 	},
 	{
 		id: 3,
@@ -51,13 +53,15 @@ export const ProjectsContent = [
 		title: "My Book Case",
 		category: "web",
 		route: "/bookcase",
+		github: "https://github.com/GarimaB06/MyBookcase_gb",
 	},
 	{
 		id: 4,
 		image: Work3,
-		title: "Pet Parent",
+		title: "Material Playground",
 		category: "web",
-		route: "/petparent",
+		route: "/materialplayground",
+		github: "https://github.com/GarimaB06/MaterialPlayground",
 	},
 ];
 
@@ -137,26 +141,26 @@ export const BookcaseContent = [
 	},
 ];
 
-export const PetParentContent = [
+export const MaterialPlaygroundContent = [
 	{
 		id: 31,
-		image: PetParent1,
-		title: "PetParent-1",
+		image: MaterialPlayground1,
+		title: "MaterialPlayground-1",
 	},
 	{
 		id: 32,
-		image: PetParent2,
-		title: "PetParent-2",
+		image: MaterialPlayground2,
+		title: "MaterialPlayground-2",
 	},
 	{
 		id: 33,
-		image: PetParent3,
-		title: "PetParent-3",
+		image: MaterialPlayground3,
+		title: "MaterialPlayground-3",
 	},
 	{
 		id: 34,
-		image: PetParent4,
-		title: "PetParent-4",
+		image: MaterialPlayground4,
+		title: "MaterialPlayground-4",
 	},
 ];
 
