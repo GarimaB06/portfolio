@@ -11,7 +11,10 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import DocketeerDemo from "./components/DocketeerDemo"
 import BookCaseDemo from "./components/BookCaseDemo";
 import MaterialPlaygroundDemo from './components/MaterialPlaygroundDemo'
+<<<<<<< HEAD
 
+=======
+>>>>>>> e2c9f72 (material playground code)
 import FauxtionaryDemo from "./components/FauxtionaryDemo"
 function App() {
   return (
@@ -32,7 +35,11 @@ function App() {
           />
 		      <Route path="/docketeer" element={<DocketeerDemo />}></Route>
 					<Route path="/bookcase" element={<BookCaseDemo />}></Route>
+<<<<<<< HEAD
 \          <Route path="/materialplayground" element={<MaterialPlaygroundDemo />}></Route>
+=======
+          <Route path="/materialplayground" element={<MaterialPlaygroundDemo />}></Route>
+>>>>>>> e2c9f72 (material playground code)
           <Route path="/fauxtionary" element={<FauxtionaryDemo />}></Route>
           </Routes>
         </Router>
