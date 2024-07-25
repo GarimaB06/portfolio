@@ -1,9 +1,9 @@
 import Work1 from "../images/docketeer.png";
-import Work2 from "../images/mybookcase.png";
+import Work2 from "../images/CinemaScape/CinemaScape1.png";
 import Work3 from "../images/materialplayground/materialplayground3.png";
-import Work4 from "../images/fauxtionary.png";
-import Work5 from "../images/CinemaScape/CinemaScape1.png";
-import Work6 from "../images/helpdesk/Helpdesk1.png";
+import Work4 from "../images/helpdesk/Helpdesk1.png";
+import Work5 from "../images/mybookcase.png";
+import Work6 from "../images/fauxtionary.png";
 import Work7 from "../images/Webcrawl/Webcrawl1.png";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
@@ -59,25 +59,17 @@ export const ProjectsContent = [
 		route: "/docketeer",
 		github: "https://github.com/open-source-labs/Docketeer",
 	},
-
 	{
 		id: 2,
-		image: Work4,
-		title: "Fauxtionary",
-		category: "mobile",
-		route: "/fauxtionary",
-		github: "https://github.com/amritvela/Fauxtionary",
+		image: Work2,
+		title: "CinemaScape",
+		category: "web",
+		route: "/cinemascape",
+		github: "https://github.com/GarimaB06/CinemaScape",
+		vercel: "https://cinema-scape-git-main-garimab06s-projects.vercel.app/",
 	},
 	{
 		id: 3,
-		image: Work2,
-		title: "My Book Case",
-		category: "web",
-		route: "/bookcase",
-		github: "https://github.com/GarimaB06/MyBookcase_gb",
-	},
-	{
-		id: 4,
 		image: Work3,
 		title: "Material Playground",
 		category: "web",
@@ -86,23 +78,31 @@ export const ProjectsContent = [
 		vercel:
 			"https://material-playground-git-main-garimab06s-projects.vercel.app/",
 	},
+
 	{
-		id: 5,
-		image: Work5,
-		title: "CinemaScape",
-		category: "web",
-		route: "/cinemascape",
-		github: "https://github.com/GarimaB06/CinemaScape",
-		vercel: "https://cinema-scape-git-main-garimab06s-projects.vercel.app/",
-	},
-	{
-		id: 6,
-		image: Work6,
+		id: 4,
+		image: Work4,
 		title: "Helpdesk",
 		category: "web",
 		route: "/helpdesk",
 		github: "https://github.com/GarimaB06/Helpdesk",
 		vercel: "https://helpdesk-three-pi.vercel.app/",
+	},
+	{
+		id: 5,
+		image: Work5,
+		title: "My Book Case",
+		category: "web",
+		route: "/bookcase",
+		github: "https://github.com/GarimaB06/MyBookcase_gb",
+	},
+	{
+		id: 6,
+		image: Work6,
+		title: "Fauxtionary",
+		category: "mobile",
+		route: "/fauxtionary",
+		github: "https://github.com/amritvela/Fauxtionary",
 	},
 	{
 		id: 7,
