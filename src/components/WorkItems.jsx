@@ -7,6 +7,12 @@ const WorkItems = ({ item }) => {
 			<div className="work-card" key={item.id}>
 				<img src={item.image} alt="" className="work-image" />
 				<h3 className="work-title">{item.title}</h3>
+				{item.vercel ? (
+					<Link to={item.vercel}>
+						Vercel demo
+						<i className="bx bx-right-arrow-alt work__button-icon"></i>
+					</Link>
+				) : null}
 				<Link to={item.route}>
 					Click to view more
 					<i className="bx bx-right-arrow-alt work__button-icon"></i>

@@ -99,6 +99,7 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/helpdesk",
 		github: "https://github.com/GarimaB06/Helpdesk",
+		vercel: "https://helpdesk-three-pi.vercel.app/",
 	},
 	{
 		id: 7,
