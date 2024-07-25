@@ -93,6 +93,7 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/cinemascape",
 		github: "https://github.com/GarimaB06/CinemaScape",
+		vercel: "https://cinema-scape-git-main-garimab06s-projects.vercel.app/",
 	},
 	{
 		id: 6,
