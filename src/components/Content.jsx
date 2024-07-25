@@ -83,6 +83,8 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/materialplayground",
 		github: "https://github.com/GarimaB06/MaterialPlayground",
+		vercel:
+			"https://material-playground-git-main-garimab06s-projects.vercel.app/",
 	},
 	{
 		id: 5,
@@ -329,5 +331,102 @@ export const WebcrawlContent = [
 		id: 56,
 		image: Webcrawl5,
 		title: "Webcrawl-5",
+	},
+];
+
+export const BACKEND_SKILLS = [
+	"Node.js",
+	"Express",
+	"NoSQL - MongoDB",
+	"PostgreSQL - SQL",
+	"Webpack",
+	"Git & GitFlow",
+	"Docker",
+	"Apollo/GraphQL",
+	"REST APIs",
+	"Vercel",
+];
+
+export const FRONTEND_SKILLS = [
+	"Typescript",
+	"React",
+	"React Native",
+	"NextJS",
+	"Redux",
+	"Styled Components",
+	"Tailwind CSS",
+	"ChartJS/D3",
+	"ThreeJS",
+	"Electron",
+];
+
+export const flickityOptions = {
+	initialIndex: 0,
+};
+
+// Data for contact cards
+export const contactCards = [
+	{
+		iconClass: "bx bxl-whatsapp",
+		title: "Whatsapp me",
+		data: "+1 (609)-356 3913",
+		link: "https://wa.me/16093563913",
+	},
+	{
+		iconClass: "bx bx-mail-send",
+		title: "Email Me",
+		data: "garima41@gmail.com",
+		link: "mailto:garima41@gmail.com",
+	},
+];
+
+// Data for form fields
+export const formFields = [
+	{
+		label: "Subject",
+		type: "text",
+		name: "subject",
+		placeholder: "Insert your subject",
+	},
+	{
+		label: "Mail",
+		type: "email",
+		name: "email",
+		placeholder: "Insert your email",
+	},
+	{
+		label: "Message",
+		type: "textarea",
+		name: "message",
+		placeholder: "Enter your message",
+	},
+];
+
+// Data for navigation items
+export const navItems = [
+	{
+		to: "#home",
+		iconClass: "uil uil-estate",
+		text: "Home",
+	},
+	{
+		to: "#about",
+		iconClass: "bx bx-happy-alt",
+		text: "About",
+	},
+	{
+		to: "#skills",
+		iconClass: "bx bx-laptop",
+		text: "Skills",
+	},
+	{
+		to: "#portfolio",
+		iconClass: "bx bx-briefcase-alt-2",
+		text: "Portfolio",
+	},
+	{
+		to: "#contact",
+		iconClass: "bx bx-phone",
+		text: "Contact",
 	},
 ];

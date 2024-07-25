@@ -1,71 +1,21 @@
 import React from "react";
+import { FRONTEND_SKILLS } from "./Content";
 
 const Frontend = () => {
 	return (
 		<div className="skills-content">
-			<h3 className="skills-title">Frontend Developer</h3>
+			<h3 className="skills-title">Frontend Stack</h3>
 			<div className="skills-box">
 				<div className="skills-group">
 					<div className="skills-data">
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>Javascript(ES6+)
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								Typescript
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								React
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								React Native
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								Redux
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								SASS/SCSS + CSS
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								ChartJS
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								Electron
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								HTML
-							</h3>
-						</div>
-						<div>
-							<h3 className="skills-name">
-								<i className="bx bx-badge-check"></i>
-								TDD
-							</h3>
-						</div>
+						{FRONTEND_SKILLS.map((skill, index) => (
+							<div key={index}>
+								<h3 className="skills-name">
+									<i className="bx bx-badge-check"></i>
+									{skill}
+								</h3>
+							</div>
+						))}
 					</div>
 				</div>
 			</div>
