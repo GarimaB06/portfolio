@@ -14,6 +14,8 @@ import MaterialPlaygroundDemo from './components/MaterialPlaygroundDemo'
 import FauxtionaryDemo from "./components/FauxtionaryDemo"
 import CinemaScapeDemo from './components/CinemaScapeDemo';
 import HelpdeskDemo from './components/HelpdeskDemo';
+import WebcrawlDemo from './components/WebcrawlDemo'
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +39,7 @@ function App() {
           <Route path="/fauxtionary" element={<FauxtionaryDemo />}></Route>
           <Route path="/cinemascape" element={<CinemaScapeDemo />}></Route>
            <Route path="/helpdesk" element={<HelpdeskDemo />}></Route>
+           <Route path="/webcrawl" element={<WebcrawlDemo />}></Route>
           </Routes>
         </Router>
       </main>

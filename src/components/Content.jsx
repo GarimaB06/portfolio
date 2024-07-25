@@ -4,6 +4,7 @@ import Work3 from "../images/materialplayground/materialplayground3.png";
 import Work4 from "../images/fauxtionary.png";
 import Work5 from "../images/CinemaScape/CinemaScape1.png";
 import Work6 from "../images/helpdesk/Helpdesk1.png";
+import Work7 from "../images/Webcrawl/Webcrawl1.png";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
 import Docketeer2 from "../images/docketeer/docketeer2.png";
@@ -42,6 +43,12 @@ import Helpdesk2 from "../images/helpdesk/Helpdesk2.png";
 import Helpdesk3 from "../images/helpdesk/Helpdesk3.png";
 import Helpdesk4 from "../images/helpdesk/Helpdesk4.png";
 import Helpdesk5 from "../images/helpdesk/Helpdesk5.png";
+
+import Webcrawl1 from "../images/Webcrawl/Webcrawl1.png";
+import Webcrawl2 from "../images/Webcrawl/Webcrawl2.png";
+import Webcrawl3 from "../images/Webcrawl/Webcrawl3.png";
+import Webcrawl4 from "../images/Webcrawl/Webcrawl4.png";
+import Webcrawl5 from "../images/Webcrawl/Webcrawl5.png";
 
 export const ProjectsContent = [
 	{
@@ -92,6 +99,14 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/helpdesk",
 		github: "https://github.com/GarimaB06/Helpdesk",
+	},
+	{
+		id: 7,
+		image: Work7,
+		title: "Webcrawl",
+		category: "web",
+		route: "/webcrawl",
+		github: "https://github.com/GarimaB06/Webcrawl",
 	},
 ];
 
@@ -285,5 +300,33 @@ export const HelpdeskContent = [
 		id: 51,
 		image: Helpdesk5,
 		title: "Helpdesk-5",
+	},
+];
+
+export const WebcrawlContent = [
+	{
+		id: 52,
+		image: Webcrawl1,
+		title: "Webcrawl-1",
+	},
+	{
+		id: 53,
+		image: Webcrawl2,
+		title: "Webcrawl-2",
+	},
+	{
+		id: 54,
+		image: Webcrawl3,
+		title: "Webcrawl-3",
+	},
+	{
+		id: 55,
+		image: Webcrawl4,
+		title: "Webcrawl-4",
+	},
+	{
+		id: 56,
+		image: Webcrawl5,
+		title: "Webcrawl-5",
 	},
 ];
