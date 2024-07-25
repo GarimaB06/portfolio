@@ -2,6 +2,8 @@ import Work1 from "../images/docketeer.png";
 import Work2 from "../images/mybookcase.png";
 import Work3 from "../images/materialplayground/materialplayground3.png";
 import Work4 from "../images/fauxtionary.png";
+import Work5 from "../images/CinemaScape/CinemaScape1.png";
+import Work6 from "../images/helpdesk/Helpdesk1.png";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
 import Docketeer2 from "../images/docketeer/docketeer2.png";
@@ -28,6 +30,18 @@ import Fauxtionary4 from "../images/fauxtionary/fauxtionary4.png";
 import Fauxtionary5 from "../images/fauxtionary/fauxtionary5.png";
 import Fauxtionary6 from "../images/fauxtionary/fauxtionary6.png";
 import Fauxtionary7 from "../images/fauxtionary/fauxtionary7.png";
+
+import CinemaScape1 from "../images/CinemaScape/CinemaScape1.png";
+import CinemaScape2 from "../images/CinemaScape/CinemaScape2.png";
+import CinemaScape3 from "../images/CinemaScape/CinemaScape3.png";
+import CinemaScape4 from "../images/CinemaScape/CinemaScape4.png";
+import CinemaScape5 from "../images/CinemaScape/CinemaScape5.png";
+
+import Helpdesk1 from "../images/helpdesk/Helpdesk1.png";
+import Helpdesk2 from "../images/helpdesk/Helpdesk2.png";
+import Helpdesk3 from "../images/helpdesk/Helpdesk3.png";
+import Helpdesk4 from "../images/helpdesk/Helpdesk4.png";
+import Helpdesk5 from "../images/helpdesk/Helpdesk5.png";
 
 export const ProjectsContent = [
 	{
@@ -62,6 +76,22 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/materialplayground",
 		github: "https://github.com/GarimaB06/MaterialPlayground",
+	},
+	{
+		id: 5,
+		image: Work5,
+		title: "CinemaScape",
+		category: "web",
+		route: "/cinemascape",
+		github: "https://github.com/GarimaB06/CinemaScape",
+	},
+	{
+		id: 6,
+		image: Work6,
+		title: "Helpdesk",
+		category: "web",
+		route: "/helpdesk",
+		github: "https://github.com/GarimaB06/Helpdesk",
 	},
 ];
 
@@ -199,5 +229,61 @@ export const FauxtionaryContent = [
 		id: 41,
 		image: Fauxtionary7,
 		title: "Fauxtionary-7",
+	},
+];
+
+export const CinemaScapeContent = [
+	{
+		id: 42,
+		image: CinemaScape1,
+		title: "CinemaScape-1",
+	},
+	{
+		id: 43,
+		image: CinemaScape2,
+		title: "CinemaScape-2",
+	},
+	{
+		id: 44,
+		image: CinemaScape3,
+		title: "CinemaScape-3",
+	},
+	{
+		id: 45,
+		image: CinemaScape4,
+		title: "CinemaScape-4",
+	},
+	{
+		id: 46,
+		image: CinemaScape5,
+		title: "CinemaScape-5",
+	},
+];
+
+export const HelpdeskContent = [
+	{
+		id: 47,
+		image: Helpdesk1,
+		title: "Helpdesk-1",
+	},
+	{
+		id: 48,
+		image: Helpdesk2,
+		title: "Helpdesk-2",
+	},
+	{
+		id: 49,
+		image: Helpdesk3,
+		title: "Helpdesk-3",
+	},
+	{
+		id: 50,
+		image: Helpdesk4,
+		title: "Helpdesk-4",
+	},
+	{
+		id: 51,
+		image: Helpdesk5,
+		title: "Helpdesk-5",
 	},
 ];

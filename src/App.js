@@ -12,6 +12,8 @@ import DocketeerDemo from "./components/DocketeerDemo"
 import BookCaseDemo from "./components/BookCaseDemo";
 import MaterialPlaygroundDemo from './components/MaterialPlaygroundDemo'
 import FauxtionaryDemo from "./components/FauxtionaryDemo"
+import CinemaScapeDemo from './components/CinemaScapeDemo';
+import HelpdeskDemo from './components/HelpdeskDemo';
 function App() {
   return (
     <div className="App">
@@ -33,6 +35,8 @@ function App() {
 					<Route path="/bookcase" element={<BookCaseDemo />}></Route>
           <Route path="/materialplayground" element={<MaterialPlaygroundDemo />}></Route>
           <Route path="/fauxtionary" element={<FauxtionaryDemo />}></Route>
+          <Route path="/cinemascape" element={<CinemaScapeDemo />}></Route>
+           <Route path="/helpdesk" element={<HelpdeskDemo />}></Route>
           </Routes>
         </Router>
       </main>
