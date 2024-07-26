@@ -4,20 +4,19 @@ import { OrbitControls, useTexture } from "@react-three/drei";
 
 const carouselStyle = {
 	width: "100%",
-	height: "800px",
+	height: "500px",
 	position: "relative",
 };
 
 const CarouselItem = ({ textureUrl, position, rotation }) => {
 	const texture = useTexture(textureUrl);
 	const mesh = useRef();
-
 	useFrame(() => {
 		mesh.current.rotation.y += 0.01; // Rotate each item
 	});
 	return (
 		<mesh ref={mesh} position={position} rotation={rotation}>
-			<planeGeometry args={[8, 5]} />
+			<planeGeometry args={[5, 3]} />
 			<meshBasicMaterial map={texture} />
 		</mesh>
 	);

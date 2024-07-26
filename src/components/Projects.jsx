@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { ProjectsContent } from "./Content";
 import { ProjectsNav } from "./Content";
 import WorkItems from "./WorkItems";
-import Carousel from "./Carousel";
 
 const Projects = () => {
 	const [item, setItem] = useState({ name: "all" });
