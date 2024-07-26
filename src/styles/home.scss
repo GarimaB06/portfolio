@@ -146,6 +146,20 @@ p {
 	align-items: center;
 }
 
+.stack-item {
+	font-size: 12px;
+	margin: 3px;
+}
+
+.demo-item {
+	padding: 20px;
+	font-size: medium;
+}
+
+.work-title {
+	margin: 50px 0px 0px 0px;
+}
+
 .work-section {
 	margin-top: 120px;
 	display: flex;
@@ -153,11 +167,28 @@ p {
 	align-items: center;
 }
 
+.stack-parent {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	max-width: 30vw;
+}
 .work-filters {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	column-gap: 0.75rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+}
+
+.demo-links {
+	display: flex;
+	flex-direction: row;
+	margin: 25px;
 }
 
 .work-item {
@@ -190,7 +221,7 @@ p {
 	width: 600px;
 	height: auto;
 	border-radius: 1.5rem;
-	margin-top: 100px;
+	margin-top: 1vh;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -671,6 +702,16 @@ button {
 	.testimonial-description {
 		margin-left: 0px;
 		margin-right: 0px;
+	}
+	.stack-parent {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.stack-item {
+		margin: none;
+		font: 10px;
 	}
 }
 

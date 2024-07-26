@@ -58,6 +58,19 @@ export const ProjectsContent = [
 		category: "desktop",
 		route: "/docketeer",
 		github: "https://github.com/open-source-labs/Docketeer",
+		stack: [
+			"React",
+			"Redux",
+			"Typescript",
+			"ChartJS",
+			"CSS",
+			"Electron",
+			"PostgreSQL",
+			"ExpressJS",
+			"Docker",
+			"REST APIs",
+			"GitHub Actions",
+		],
 	},
 	{
 		id: 2,
@@ -67,6 +80,7 @@ export const ProjectsContent = [
 		route: "/cinemascape",
 		github: "https://github.com/GarimaB06/CinemaScape",
 		vercel: "https://cinema-scape-git-main-garimab06s-projects.vercel.app/",
+		stack: ["React", "CSS", "Vercel"],
 	},
 	{
 		id: 3,
@@ -77,6 +91,7 @@ export const ProjectsContent = [
 		github: "https://github.com/GarimaB06/MaterialPlayground",
 		vercel:
 			"https://material-playground-git-main-garimab06s-projects.vercel.app/",
+		stack: ["React", "Typescript", "ThreeJS", "SCSS", "Vercel"],
 	},
 
 	{
@@ -87,6 +102,16 @@ export const ProjectsContent = [
 		route: "/helpdesk",
 		github: "https://github.com/GarimaB06/Helpdesk",
 		vercel: "https://helpdesk-three-pi.vercel.app/",
+		stack: [
+			"React",
+			"Typescript",
+			"Clerk Auth",
+			"REST APIs",
+			"SCSS",
+			"MongoDB",
+			"ExpressJS",
+			"Vercel",
+		],
 	},
 	{
 		id: 5,
@@ -95,6 +120,15 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/bookcase",
 		github: "https://github.com/GarimaB06/MyBookcase_gb",
+		stack: [
+			"React",
+			"RTK",
+			"Auth",
+			"REST APIs",
+			"SCSS",
+			"PostgreSQL",
+			"Express",
+		],
 	},
 	{
 		id: 6,
@@ -103,6 +137,7 @@ export const ProjectsContent = [
 		category: "mobile",
 		route: "/fauxtionary",
 		github: "https://github.com/amritvela/Fauxtionary",
+		stack: ["React", "SCSS", "Rune SDK"],
 	},
 	{
 		id: 7,
@@ -111,6 +146,16 @@ export const ProjectsContent = [
 		category: "web",
 		route: "/webcrawl",
 		github: "https://github.com/GarimaB06/Webcrawl",
+		stack: [
+			"NextJS",
+			"Typescript",
+			"D3",
+			"Data visualization",
+			"Puppeteer",
+			"SCSS",
+			"ExpressJS",
+			"MongoDB",
+		],
 	},
 ];
 

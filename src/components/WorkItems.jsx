@@ -5,22 +5,30 @@ const WorkItems = ({ item }) => {
 	return (
 		<>
 			<div className="work-card" key={item.id}>
-				<img src={item.image} alt="" className="work-image" />
 				<h3 className="work-title">{item.title}</h3>
-				{item.vercel ? (
-					<Link to={item.vercel}>
-						Vercel demo
+				<p className="stack-parent">
+					{item.stack.map((stackItem, index) => (
+						<span className="stack-item">&#x2022; {stackItem} </span>
+					))}
+				</p>
+				<img src={item.image} alt="" className="work-image" />
+				<div className="demo-links">
+					{item.vercel ? (
+						<Link to={item.vercel} className="demo-item">
+							Demo
+							<i className="bx bx-right-arrow-alt work__button-icon"></i>
+						</Link>
+					) : (
+						<Link to={item.route} className="demo-item">
+							Demo
+							<i className="bx bx-right-arrow-alt work__button-icon"></i>
+						</Link>
+					)}
+					<a href={item.github} rel="noopener noreferrer" className="demo-item">
+						GitHub
 						<i className="bx bx-right-arrow-alt work__button-icon"></i>
-					</Link>
-				) : null}
-				<Link to={item.route}>
-					Click to view more
-					<i className="bx bx-right-arrow-alt work__button-icon"></i>
-				</Link>
-				<a href={item.github} rel="noopener noreferrer">
-					GitHub
-					<i className="bx bx-right-arrow-alt work__button-icon"></i>
-				</a>
+					</a>
+				</div>
 			</div>
 		</>
 	);

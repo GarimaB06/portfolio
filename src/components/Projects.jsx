@@ -25,7 +25,7 @@ const Projects = () => {
 	};
 
 	return (
-		<div>
+		<>
 			<div className="work-filters">
 				{ProjectsNav.map((item, index) => {
 					return (
@@ -41,12 +41,14 @@ const Projects = () => {
 					);
 				})}
 			</div>
-			<div className="work-container container grid">
-				{projects.map((item) => {
-					return <WorkItems item={item} key={item.id} />;
-				})}
+			<div>
+				<div className="work-container container grid">
+					{projects.map((item) => {
+						return <WorkItems item={item} key={item.id} />;
+					})}
+				</div>
 			</div>
-		</div>
+		</>
 	);
 };
 
