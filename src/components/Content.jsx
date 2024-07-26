@@ -151,7 +151,6 @@ export const ProjectsContent = [
 			"NextJS",
 			"Typescript",
 			"D3",
-			"Visualizations",
 			"Puppeteer",
 			"SCSS",
 			"ExpressJS",
