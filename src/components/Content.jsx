@@ -58,6 +58,7 @@ export const ProjectsContent = [
 		category: "desktop",
 		route: "/docketeer",
 		github: "https://github.com/open-source-labs/Docketeer",
+		vercel: "https://docketeer.io/",
 		stack: [
 			"React",
 			"Redux",
