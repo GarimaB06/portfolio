@@ -9,3 +9,4 @@ export default defineConfig({
     outDir: 'build',  // Change output directory to 'build'
   },
 })
+

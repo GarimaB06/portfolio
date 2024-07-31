@@ -8,9 +8,7 @@ const WorkItems = ({ item }) => {
 				<h3 className="work-title">{item.title}</h3>
 				<p className="stack-parent">
 					{item.stack.map((stackItem, index) => (
-						<span key={index} className="stack-item">
-							&#x2022; {stackItem}{" "}
-						</span>
+						<span className="stack-item">&#x2022; {stackItem} </span>
 					))}
 				</p>
 				<img src={item.image} alt="" className="work-image" />
