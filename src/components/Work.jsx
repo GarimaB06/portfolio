@@ -1,6 +1,6 @@
 import React from "react";
 import Projects from "./Projects";
-
+import "../styles/projects-demo.scss";
 const Work = () => {
 	return (
 		<section className="recommendations">

@@ -12,7 +12,7 @@ const WebcrawlDemo = () => {
 			{isMobile === true ? (
 				<div className="mobile-view-project-demo project-section">
 					{WebcrawlContent.map((contentItem, index) => (
-						<div className="mobile-view-item-wrapper">
+						<div className="mobile-view-item-wrapper" key={index}>
 							<img
 								className="project-images"
 								src={contentItem.image}
@@ -32,7 +32,7 @@ const WebcrawlDemo = () => {
 						static
 					>
 						{WebcrawlContent.map((contentItem, index) => (
-							<div className="carousel-item-wrapper">
+							<div className="carousel-item-wrapper" key={index}>
 								<img
 									className="project-images"
 									src={contentItem.image}

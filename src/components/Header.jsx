@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/header.scss";
 import { HashLink } from "react-router-hash-link";
-import { navItems } from "./Content";
+import { navItems } from "./Content.jsx";
 
 const Header = () => {
 	const [toggle, setToggle] = useState(false);
