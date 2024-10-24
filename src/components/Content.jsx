@@ -50,6 +50,13 @@ import Webcrawl3 from "../images/Webcrawl/Webcrawl3.png";
 import Webcrawl4 from "../images/Webcrawl/Webcrawl4.png";
 import Webcrawl5 from "../images/Webcrawl/Webcrawl5.png";
 
+import ComixApp1 from '../images/comix-app/comix-app-1.png';
+import ComixApp2 from '../images/comix-app/comix-app-2.png';
+import ComixApp3 from '../images/comix-app/comix-app-3.png';
+import ComixApp4 from '../images/comix-app/comix-app-4.png';
+import ComixApp5 from '../images/comix-app/comix-app-5.png';
+import ComixApp6 from '../images/comix-app/comix-app-6.png';
+
 export const ProjectsContent = [
 	{
 		id: 1,
@@ -379,6 +386,39 @@ export const WebcrawlContent = [
 		title: "Webcrawl-5",
 	},
 ];
+
+export const ComixAppContent = [
+	{
+		id: 57,
+		image: ComixApp1,
+		title: "ComixApp-1",
+	},
+	{
+		id: 58,
+		image: ComixApp2,
+		title: "ComixApp-2",
+	},
+	{
+		id: 59,
+		image: ComixApp3,
+		title: "ComixApp-3",
+	},
+	{
+		id: 60,
+		image: ComixApp4,
+		title: "ComixApp-4",
+	},
+	{
+		id: 61,
+		image: ComixApp5,
+		title: "ComixApp-5",
+	},
+	{
+		id: 62,
+		image: ComixApp6,
+		title: "ComixApp-6",
+	},
+]
 
 export const BACKEND_SKILLS = [
 	"Node.js",
