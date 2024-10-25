@@ -2,6 +2,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	// padding-bottom: 20px;
 	.project-images {
 		margin: 0 auto;
 	}
@@ -23,6 +24,23 @@ iframe {
 	max-height: auto;
 }
 
+.comix-project-images-mobile{ 
+	margin: 10px;
+	width: 250px;
+	height: auto;
+	border-radius: 2rem;
+	padding: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.comix-project-images {
+	width: 250px;
+	height: auto;
+	border-radius: 2rem;
+	padding: 5px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 .flickity-enabled {
 	position: relative;
 }
@@ -33,6 +51,7 @@ iframe {
 
 .flickity-viewport {
 	padding-top: 150px;
+	padding-bottom: 50px;
 	overflow: hidden;
 	position: relative;
 	height: 100%;
@@ -142,7 +161,7 @@ iframe {
 	width: 100%;
 	bottom: -25px;
 	padding: 0;
-	margin: 0;
+	margin-top: 0;
 	list-style: none;
 	text-align: center;
 	line-height: 1;
@@ -188,6 +207,7 @@ iframe {
 		width: 100%;
 		display: flex;
 		justify-content: center;
+		// padding-bottom: 20px;
 		.project-images {
 			margin: 10px auto;
 		}

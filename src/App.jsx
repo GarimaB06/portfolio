@@ -15,6 +15,7 @@ import FauxtionaryDemo from "./components/FauxtionaryDemo";
 import CinemaScapeDemo from "./components/CinemaScapeDemo";
 import HelpdeskDemo from "./components/HelpdeskDemo";
 import WebcrawlDemo from "./components/WebcrawlDemo";
+import ComixAppDemo from './components/ComixAppDemo';
 import "boxicons/css/boxicons.min.css";
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
 						<Route path="/cinemascape" element={<CinemaScapeDemo />}></Route>
 						<Route path="/helpdesk" element={<HelpdeskDemo />}></Route>
 						<Route path="/webcrawl" element={<WebcrawlDemo />}></Route>
+						<Route path="/comixapp" element={<ComixAppDemo />}></Route>
 					</Routes>
 				</Router>
 			</main>

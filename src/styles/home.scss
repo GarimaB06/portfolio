@@ -216,7 +216,19 @@ p {
 	flex-direction: column;
 	align-items: center;
 }
-
+.comix-work-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.comix-work-image {
+	width: 200px;
+	border-radius: 2rem;
+	padding: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
 .work-card img {
 	width: 600px;
 	height: auto;
@@ -503,6 +515,8 @@ button {
 		margin: 0px;
 	}
 
+	
+
 	.header {
 		z-index: 20;
 	}
@@ -602,6 +616,7 @@ button {
 	.contact-form-tag {
 		z-index: 1;
 	}
+	
 }
 
 /*============(Other iPhones - MAX-WIDTH - 600px)============*/
@@ -687,6 +702,21 @@ button {
 		max-width: 370px;
 		height: auto;
 	}
+
+	.comix-work-card {
+		max-width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.comix-work-image {
+		width: 200px;
+		border-radius: 2rem;
+		padding: 5px;
+		box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	}
+
 	.testimonials {
 		padding-top: 0px;
 	}

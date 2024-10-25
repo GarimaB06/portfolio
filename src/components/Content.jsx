@@ -5,6 +5,7 @@ import Work4 from "../images/helpdesk/Helpdesk1.png";
 import Work5 from "../images/mybookcase.png";
 import Work6 from "../images/fauxtionary.png";
 import Work7 from "../images/Webcrawl/Webcrawl1.png";
+import Work8 from "../images/comix-app/comix-app-7.gif";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
 import Docketeer2 from "../images/docketeer/docketeer2.png";
@@ -56,6 +57,7 @@ import ComixApp3 from '../images/comix-app/comix-app-3.png';
 import ComixApp4 from '../images/comix-app/comix-app-4.png';
 import ComixApp5 from '../images/comix-app/comix-app-5.png';
 import ComixApp6 from '../images/comix-app/comix-app-6.png';
+import ComixApp7 from "../images/comix-app/comix-app-7.gif";
 
 export const ProjectsContent = [
 	{
@@ -162,6 +164,24 @@ export const ProjectsContent = [
 			"SCSS",
 			"ExpressJS",
 			"MongoDB",
+		],
+	},
+	{
+		id: 8,
+		image: Work8,
+		title: "Comix One",
+		category: "mobile",
+		route: "/comixapp",
+		appStore: "https://apps.apple.com/us/app/comix-one/id6566173476",
+		website: "https://www.comix.one",
+		stack: [
+			"React Native",
+			"React Navigation",
+			"Expo CLI",
+			"Typescript",
+			"Styled Components",
+			"GraphQL",
+			"Apollo Client",
 		],
 	},
 ];
@@ -388,6 +408,11 @@ export const WebcrawlContent = [
 ];
 
 export const ComixAppContent = [
+	{
+		id: 63,
+		image: ComixApp7,
+		title: "ComixApp-7",
+	},
 	{
 		id: 57,
 		image: ComixApp1,
