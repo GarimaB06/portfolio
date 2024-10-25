@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import DocketeerDemo from "./components/DocketeerDemo";
 import BookCaseDemo from "./components/BookCaseDemo";
 import MaterialPlaygroundDemo from "./components/MaterialPlaygroundDemo";
@@ -19,41 +19,39 @@ import ComixAppDemo from './components/ComixAppDemo';
 import "boxicons/css/boxicons.min.css";
 
 function App() {
-	return (
-		<div className="App">
-			<main className="main">
-				<Router>
-					<Header />
-					<Routes>
-						<Route
-							path="/"
-							element={
-								<>
-									<Home />
-									<About />
-									<Skills />
-									<Work />
-									<Testimonials />
-									<Contact />
-								</>
-							}
-						/>
-						<Route path="/docketeer" element={<DocketeerDemo />}></Route>
-						<Route path="/bookcase" element={<BookCaseDemo />}></Route>
-						<Route
-							path="/materialplayground"
-							element={<MaterialPlaygroundDemo />}
-						></Route>
-						<Route path="/fauxtionary" element={<FauxtionaryDemo />}></Route>
-						<Route path="/cinemascape" element={<CinemaScapeDemo />}></Route>
-						<Route path="/helpdesk" element={<HelpdeskDemo />}></Route>
-						<Route path="/webcrawl" element={<WebcrawlDemo />}></Route>
-						<Route path="/comixapp" element={<ComixAppDemo />}></Route>
-					</Routes>
-				</Router>
-			</main>
-		</div>
-	);
+    return (
+        <div className="App">
+            <main className="main">
+                <Router>
+                    <Header />
+                    <Routes>
+                        <Route
+                            path="/"
+                            element={
+                                <>
+                                    <Home />
+                                    <About />
+                                    <Skills />
+                                    <Work />
+                                    <Testimonials />
+                                    <Contact />
+                                </>
+                            }
+                        />
+                        <Route path="/docketeer" element={<DocketeerDemo />} />
+                        <Route path="/bookcase" element={<BookCaseDemo />} />
+                        <Route path="/materialplayground" element={<MaterialPlaygroundDemo />} />
+                        <Route path="/fauxtionary" element={<FauxtionaryDemo />} />
+                        <Route path="/cinemascape" element={<CinemaScapeDemo />} />
+                        <Route path="/helpdesk" element={<HelpdeskDemo />} />
+                        <Route path="/webcrawl" element={<WebcrawlDemo />} />
+                        <Route path="/comixapp" element={<ComixAppDemo />} />
+                        <Route path="*" element={<Navigate to="/" />} />
+                    </Routes>
+                </Router>
+            </main>
+        </div>
+    );
 }
 
 export default App;
