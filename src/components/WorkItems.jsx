@@ -33,10 +33,12 @@ const WorkItems = ({ item }) => {
 						<i className="bx bx-right-arrow-alt work__button-icon"></i>
 					</Link>
 				)}
-				<a href={item.title === "Comix One"? item.appStore : item.github} target="_blank" rel="noopener noreferrer" className="demo-item">
-					{item.title=== "Comix One"? "App Store": "GitHub"}
+					<a href={item.title === "Comix One" ? item.appStore : item.github} target="_blank" rel="noopener noreferrer" className="demo-item">
+					{item.title === "Comix One" ? "App Store" : item.github && "GitHub"}
+					{((item.title === "Comix One") || item.github) && (
 					<i className="bx bx-right-arrow-alt work__button-icon"></i>
-				</a>
+					)}
+					</a>
 			</div>
 		</div>
 	);

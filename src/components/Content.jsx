@@ -6,6 +6,7 @@ import Work5 from "../images/mybookcase.png";
 import Work6 from "../images/fauxtionary.png";
 import Work7 from "../images/Webcrawl/Webcrawl1.png";
 import Work8 from "../images/comix-app/comix-app-7.gif";
+import Work9 from "../images/comixWeb/comixWeb.gif";
 
 import Docketeer1 from "../images/docketeer/docketeer1.png";
 import Docketeer2 from "../images/docketeer/docketeer2.png";
@@ -76,6 +77,20 @@ export const ProjectsContent = [
 			"Styled Components",
 			"GraphQL",
 			"Apollo Client",
+		],
+	},
+	{
+		id: 9,
+		image: Work9,
+		title: "Comix Web",
+		category: "web",
+		route: "/comixweb",
+		vercel: "https://diebold.comix.one/",
+		stack: [
+			"React",
+			"Vite",
+			"Typescript",
+			"Styled Components",
 		],
 	},
 	{
