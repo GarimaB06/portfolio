@@ -1,7 +1,7 @@
-import Work1 from "../images/docketeer.png";
-import Work2 from "../images/CinemaScape/CinemaScape1.png";
-import Work3 from "../images/materialplayground/materialplayground3.png";
-import Work4 from "../images/helpdesk/Helpdesk1.png";
+import Work1 from "../images/docketeer/docketeer-8.gif";
+import Work2 from "../images/CinemaScape/CinemaScape6.gif";
+import Work3 from "../images/materialplayground/materialplayground5.gif";
+import Work4 from "../images/helpdesk/Helpdesk6.gif";
 import Work5 from "../images/mybookcase.png";
 import Work6 from "../images/fauxtionary.png";
 import Work7 from "../images/Webcrawl/Webcrawl1.png";
@@ -61,6 +61,24 @@ import ComixApp7 from "../images/comix-app/comix-app-7.gif";
 
 export const ProjectsContent = [
 	{
+		id: 8,
+		image: Work8,
+		title: "Comix One",
+		category: "mobile",
+		route: "/comixapp",
+		appStore: "https://apps.apple.com/us/app/comix-one/id6566173476",
+		website: "https://www.comix.one",
+		stack: [
+			"React Native",
+			"React Navigation",
+			"Expo CLI",
+			"Typescript",
+			"Styled Components",
+			"GraphQL",
+			"Apollo Client",
+		],
+	},
+	{
 		id: 1,
 		image: Work1,
 		title: "Docketeer",
@@ -83,16 +101,6 @@ export const ProjectsContent = [
 		],
 	},
 	{
-		id: 2,
-		image: Work2,
-		title: "CinemaScape",
-		category: "web",
-		route: "/cinemascape",
-		github: "https://github.com/GarimaB06/CinemaScape",
-		vercel: "https://cinema-scape-git-main-garimab06s-projects.vercel.app/",
-		stack: ["React", "CSS", "Vercel"],
-	},
-	{
 		id: 3,
 		image: Work3,
 		title: "Material Playground",
@@ -104,6 +112,17 @@ export const ProjectsContent = [
 		stack: ["React", "Typescript", "ThreeJS", "SCSS", "Vercel"],
 	},
 
+	{
+		id: 2,
+		image: Work2,
+		title: "CinemaScape",
+		category: "web",
+		route: "/cinemascape",
+		github: "https://github.com/GarimaB06/CinemaScape",
+		vercel: "https://cinema-scape-git-main-garimab06s-projects.vercel.app/",
+		stack: ["React", "CSS", "Vercel"],
+	},
+	
 	{
 		id: 4,
 		image: Work4,
@@ -166,24 +185,7 @@ export const ProjectsContent = [
 			"MongoDB",
 		],
 	},
-	{
-		id: 8,
-		image: Work8,
-		title: "Comix One",
-		category: "mobile",
-		route: "/comixapp",
-		appStore: "https://apps.apple.com/us/app/comix-one/id6566173476",
-		website: "https://www.comix.one",
-		stack: [
-			"React Native",
-			"React Navigation",
-			"Expo CLI",
-			"Typescript",
-			"Styled Components",
-			"GraphQL",
-			"Apollo Client",
-		],
-	},
+	
 ];
 
 export const ProjectsNav = [
