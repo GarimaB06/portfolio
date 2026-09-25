@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "../styles/header.scss";
 import { HashLink } from "react-router-hash-link"; 
 import { navItems } from "./Content.jsx"; 
