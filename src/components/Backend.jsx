@@ -1,4 +1,3 @@
-import React from "react";
 import { BACKEND_SKILLS } from "./Content";
 
 const Backend = () => {

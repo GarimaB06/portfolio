@@ -1,4 +1,3 @@
-import React from "react";
 import { FRONTEND_SKILLS } from "./Content";
 
 const Frontend = () => {

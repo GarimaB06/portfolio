@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { FauxtionaryContent } from "./Content";
 import Flickity from "react-flickity-component";
 import useWindowDimensions from "./useWindowDimenstions";

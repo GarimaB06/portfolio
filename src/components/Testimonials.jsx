@@ -1,4 +1,3 @@
-import React from "react";
 import { RecoData } from "./RecoData";
 import ScrollDown from "./Scroll";
 

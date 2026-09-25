@@ -1,4 +1,3 @@
-import React from "react";
 import Flickity from "react-flickity-component";
 import "../styles/projects-demo.scss";
 import useWindowDimensions from "./useWindowDimenstions";

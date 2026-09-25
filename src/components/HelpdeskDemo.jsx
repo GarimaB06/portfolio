@@ -1,4 +1,3 @@
-import React from "react";
 import { HelpdeskContent } from "./Content";
 import Flickity from "react-flickity-component";
 import "../styles/projects-demo.scss";
