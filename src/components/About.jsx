@@ -1,5 +1,3 @@
-import CV from "../cv/cv.pdf";
-
 const About = () => {
 	return (
 		<section className="about-section padding-top" id="about">
@@ -18,9 +16,6 @@ const About = () => {
 						of movement through dance, yoga, and new fitness classes.
 					</p>
 				</div>
-				<a href={CV} className="button">
-					Click Here to Download CV
-				</a>
 			</div>
 		</section>
 	);
